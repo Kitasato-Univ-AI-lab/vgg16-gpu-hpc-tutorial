@@ -188,15 +188,14 @@ singularity pull pytorch-cu118.sif docker://pytorch/pytorch:2.2.2-cuda11.8-cudnn
 
 ```bash
 #!/bin/bash
-#PBS -N "VGG16_intro"                       # ジョブ名
-#PBS -q DebugA                              # キュー名
-#PBS -l select=1:ncpus=2:ngpus=1:mem=16gb   # 資源：1ノード、CPU2、GPU1、メモリ16GB
-#PBS -l walltime=00:10:00                   # 最大実行時間
-#PBS -j oe                                  # 標準出力と標準エラーをまとめる
+#PBS -N "VGG16_intro" 
+#PBS -q DebugA                 
+#PBS -l select=1:ncpus=2:ngpus=1:mem=16gb   
+#PBS -l walltime=00:10:00                   
+#PBS -j oe                                  
 
-cd "$PBS_O_WORKDIR"                         # ジョブ投入時のディレクトリへ移動
-
-module load singularity/4.0.3               # Singularityを使う
+cd "$PBS_O_WORKDIR"                         
+module load singularity/4.0.3               
 
 # PyTorchモデルの重みをキャッシュする場所（毎回ダウンロードしないため）
 export TORCH_HOME="$PBS_O_WORKDIR/.cache/torch"
