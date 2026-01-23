@@ -6,6 +6,7 @@
 * **Singularityコンテナ**で深層学習を動かす方法
 * 有名CNNモデル **VGG16** の推論（画像分類）を **GPUで実行**
 * [ssh configファイルの作成](sshconfig.md)
+* [vscodeでのremote sshの使用](remotessh.md)
 
 を、最短で体験します。
 
