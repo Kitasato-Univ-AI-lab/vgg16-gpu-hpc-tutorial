@@ -1,5 +1,3 @@
----
-
 ## VS Code で Remote SSH 接続する方法
 
 この手順では、Visual Studio Code（VS Code）を使って **hokushin サーバに SSH 接続**します。
@@ -158,5 +156,3 @@ Remote-SSH: Close Remote Connection
 * `~/.ssh/config` の設定が正しいか
 * ユーザー名・秘密鍵のパスが **自分用**になっているか
 * ターミナルで `ssh hokushin` が通るか
-
----
