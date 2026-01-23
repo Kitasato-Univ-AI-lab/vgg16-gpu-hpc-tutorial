@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## VS Code で Remote SSH 接続する方法
 
 この手順では、Visual Studio Code（VS Code）を使って **hokushin サーバに SSH 接続**します。
