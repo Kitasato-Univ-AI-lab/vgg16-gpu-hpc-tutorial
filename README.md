@@ -161,6 +161,7 @@ ls
 
 ```bash
 module load singularity/4.0.3
+cd ~/vgg_intro/
 singularity pull pytorch-cu118.sif docker://pytorch/pytorch:2.2.2-cuda11.8-cudnn8-runtime
 ```
 
