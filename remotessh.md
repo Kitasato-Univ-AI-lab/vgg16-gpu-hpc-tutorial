@@ -1,6 +1,4 @@
 ---
-layout: default
----
 
 ## VS Code で Remote SSH 接続する方法
 
