@@ -41,7 +41,7 @@ module load singularity/4.0.3
 
 ---
 
-# 3. PyTorchコンテナを取得（1回だけ）
+# 3. PyTorchコンテナを取得（1回だけ・すでにコンテナのダウンロードを行っている場合はやらない）
 
 ```bash
 singularity pull pytorch-cu118.sif \
