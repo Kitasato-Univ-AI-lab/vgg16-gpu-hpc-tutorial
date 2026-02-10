@@ -7,6 +7,7 @@
 * 有名CNNモデル **VGG16** の推論（画像分類）を **GPUで実行**
 * [ssh configファイルの作成](sshconfig.md)
 * [vscodeでのremote sshの使用](remotessh.md)
+* [Singularity + venv でPython環境を拡張する](Singularity_venv.md)
 
 を、最短で体験します。
 
